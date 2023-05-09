@@ -23,3 +23,5 @@ int main() {
     }
     return 0;
 }
+//  To prevent any wastage, the maximum side possible can be the gcd of the 2 sides.
+//  The answer is (A * B)/(gcd(A,B)^2)
