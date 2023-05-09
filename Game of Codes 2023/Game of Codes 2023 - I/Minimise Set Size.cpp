@@ -38,7 +38,7 @@ int smallest_set(long long num, long long k) {
         } 
         int length = 1;
         int digit = num % 10;
-        for (;length <= 10; ++length) {
+        for (length=1;length <= 10; ++length) {
             if (length * k > num){
                 return -1;
             } 
